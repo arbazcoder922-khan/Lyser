@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { analyzeResume, extractTextFromPdf } from './resumeAnalyzer'
+import { analyzeResume, extractTextFromPdf } from './utils/resumeAnalyzer'
 import './App.css'
 
 const BREAKDOWN_LABELS = {
